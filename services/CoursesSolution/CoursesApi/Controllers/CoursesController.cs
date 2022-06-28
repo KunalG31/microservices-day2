@@ -19,4 +19,5 @@ public class CoursesController : ControllerBase
         var response = await _data.GetAllCoursesAsync();
         return Ok(response);
     }
+
 }

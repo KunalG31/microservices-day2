@@ -12,6 +12,9 @@ namespace CoursesApi.Domain
         [BsonElement("title")]
         public string Title { get; set; } = String.Empty;
 
+        [BsonElement("description")]
+        public string Description { get; set; } = String.Empty;
+
         [BsonElement("category")]
         public string Category { get; set; } = String.Empty;
 
@@ -20,6 +23,8 @@ namespace CoursesApi.Domain
 
         [BsonElement("numberOfDays")]
         public int NumberOfDays { get; set; }
+
+        
 
     }
 }
